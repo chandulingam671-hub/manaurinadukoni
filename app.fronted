@@ -1,1 +1,137 @@
+"// Mock data for Mana Oori Naatu Kodi
 
+export const breeds = [
+  {
+    id: 1,
+    name: \"Naatu Kodi\",
+    teluguName: \"నాటు కోడి\",
+    description: \"Traditional village chicken known for superior taste, natural immunity, and authentic flavor. Raised without hormones or antibiotics.\",
+    benefits: [\"High protein content\", \"Natural immunity\", \"Superior taste\", \"Chemical-free\"],
+    image: \"https://images.unsplash.com/photo-1685032235926-1b6141485c65?crop=entropy&cs=srgb&fm=jpg&q=85\",
+    price: \"₹350/kg\",
+    availability: \"In Stock\"
+  },
+  {
+    id: 2,
+    name: \"Nemali Kodi\",
+    teluguName: \"నెమలి కోడి\",
+    description: \"Peacock-feathered breed with vibrant plumage. Known for lean meat and rich flavor profile from natural village rearing.\",
+    benefits: [\"Lean meat\", \"Rich flavor\", \"Natural diet\", \"Free-range\"],
+    image: \"https://images.unsplash.com/photo-1768406248514-64b5925d905e?crop=entropy&cs=srgb&fm=jpg&q=85\",
+    price: \"₹380/kg\",
+    availability: \"In Stock\"
+  },
+  {
+    id: 3,
+    name: \"Petta\",
+    teluguName: \"పెట్ట\",
+    description: \"Robust village breed with excellent meat quality. Naturally raised on village farms with traditional feeding methods.\",
+    benefits: [\"Excellent texture\", \"Natural growth\", \"High nutrition\", \"Village-fed\"],
+    image: \"https://images.unsplash.com/photo-1765460220129-233c27c4eafb?crop=entropy&cs=srgb&fm=jpg&q=85\",
+    price: \"₹340/kg\",
+    availability: \"In Stock\"
+  },
+  {
+    id: 4,
+    name: \"Tella Kodi\",
+    teluguName: \"తెల్ల కోడి\",
+    description: \"White village chicken breed known for tender meat and mild flavor. Perfect for traditional recipes and family meals.\",
+    benefits: [\"Tender meat\", \"Mild flavor\", \"Easy to cook\", \"Naturally white\"],
+    image: \"https://images.unsplash.com/photo-1767978971711-2f5a2b853302?crop=entropy&cs=srgb&fm=jpg&q=85\",
+    price: \"₹330/kg\",
+    availability: \"In Stock\"
+  },
+  {
+    id: 5,
+    name: \"Nalla Kodi\",
+    teluguName: \"నల్ల కోడి\",
+    description: \"Black village chicken with unique flavor and high nutritional value. Prized in traditional medicine and cuisine.\",
+    benefits: [\"High nutrition\", \"Unique flavor\", \"Medicinal value\", \"Pure black\"],
+    image: \"https://images.unsplash.com/photo-1753168521124-a6bab276aeed?crop=entropy&cs=srgb&fm=jpg&q=85\",
+    price: \"₹400/kg\",
+    availability: \"Limited Stock\"
+  },
+  {
+    id: 6,
+    name: \"Punju\",
+    teluguName: \"పుంజు\",
+    description: \"Heritage breed known for exceptional taste and texture. Raised in authentic village conditions with natural feed.\",
+    benefits: [\"Heritage breed\", \"Exceptional taste\", \"Natural feed\", \"Village conditions\"],
+    image: \"https://images.unsplash.com/photo-1728326853117-28d58ea8a8fc?crop=entropy&cs=srgb&fm=jpg&q=85\",
+    price: \"₹360/kg\",
+    availability: \"In Stock\"
+  }
+];
+
+export const hygieneStandards = [
+  {
+    id: 1,
+    title: \"Clean Transport\",
+    description: \"Sanitized vehicles with temperature control ensuring freshness from farm to your doorstep.\",
+    icon: \"Truck\"
+  },
+  {
+    id: 2,
+    title: \"Hygienic Packaging\",
+    description: \"Food-grade eco-friendly packaging that maintains freshness and prevents contamination.\",
+    icon: \"Package\"
+  },
+  {
+    id: 3,
+    title: \"Quality Inspection\",
+    description: \"Every bird undergoes thorough health and quality checks before reaching you.\",
+    icon: \"ShieldCheck\"
+  },
+  {
+    id: 4,
+    title: \"Natural Rearing\",
+    description: \"Chickens raised in open village environments with natural feed and no hormones.\",
+    icon: \"Leaf\"
+  },
+  {
+    id: 5,
+    title: \"Farm Transparency\",
+    description: \"Visit our farms and witness our traditional rearing practices firsthand.\",
+    icon: \"Eye\"
+  },
+  {
+    id: 6,
+    title: \"Fresh Delivery\",
+    description: \"Same-day delivery options available for maximum freshness and quality.\",
+    icon: \"Clock\"
+  }
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: \"Lakshmi Devi\",
+    location: \"Hyderabad\",
+    rating: 5,
+    comment: \"తాజా మరియు నాణ్యమైన నాటు కోడి. రుచి చాలా బాగుంది. మా ఊరి నాటు కోడి లాగే ఉంది!\",
+    translation: \"Fresh and quality country chicken. Taste is excellent. Just like our village chicken!\"
+  },
+  {
+    id: 2,
+    name: \"Rajesh Kumar\",
+    location: \"Vijayawada\",
+    rating: 5,
+    comment: \"Excellent quality and hygienic packaging. The chicken is genuinely village-raised. Highly recommended for health-conscious families.\"
+  },
+  {
+    id: 3,
+    name: \"Madhavi Reddy\",
+    location: \"Warangal\",
+    rating: 5,
+    comment: \"నాటు కోడి కావాలంటే ఇక్కడే ఆర్డర్ చేయండి. పూర్తిగా సహజంగా పెంచిన కోడి. చాలా మంచి సర్వీస్.\",
+    translation: \"Order here if you want real country chicken. Completely naturally raised. Very good service.\"
+  }
+];
+
+export const contactInfo = {
+  phone: \"+91 98765 43210\",
+  email: \"info@manaoorinnatukodi.com\",
+  address: \"Village Farms, Telangana\",
+  locations: [\"Hyderabad\", \"Warangal\", \"Vijayawada\", \"Karimnagar\"]
+};
+"
